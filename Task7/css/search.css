@@ -1,0 +1,20 @@
+    div
+    {
+      background-color: gray;
+      width: 553px;
+      padding: 63px;
+    }
+  }
+  #search
+  {
+    border-radius: 100px;
+    width: 403px;
+    height: 46px;
+  }
+  #size
+  {
+    border-radius: 0px 50px 50px 0px;
+    height: 45px;
+    width: 50px;
+    margin-left: -4px
+  }

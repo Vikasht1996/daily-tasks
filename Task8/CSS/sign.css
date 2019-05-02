@@ -1,0 +1,74 @@
+body
+{
+	background-color: white;
+}
+:root
+{
+	--color:rgb(255,255,255);
+}
+form
+{
+	background-color: black;
+	padding: 23px;
+	width: 543px;
+}
+#signup
+{
+	background-color: rgb(0,255,0);
+	color: var(--color);
+	margin-left: 85px;
+	padding: 5px;
+}
+#login
+{
+	background-color: rgb(0,200,0);
+	color: var(--color);	
+	padding: 5px;
+}
+div
+{
+	color: var(--color);
+	margin-left: 156px;
+	width: 388px;
+}
+
+#email
+{
+	margin-right: 183px;
+	margin-left: 85px;
+	margin-bottom: 15px;
+	padding: 5px;
+	background-color: black;
+
+}
+#pswd
+{
+	margin-right: 180px;
+	margin-left: 85px;
+	padding: 5px;
+	background-color: black;
+}
+#fname
+{
+	margin-left: 85px;
+	margin-bottom: 14px;
+	padding: 5px;
+	background-color: black;
+}
+
+#lname
+{
+	padding: 5px;
+	background-color: black;
+}
+#start
+{
+	background-color: rgb(0,255,0);
+	margin: 78px;
+	margin-top: 2px;
+}
+#started
+{
+	text-align: center;
+	color: var(--color);
+}

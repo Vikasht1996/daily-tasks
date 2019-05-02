@@ -1,0 +1,38 @@
+body
+{
+	background-color: yellow;
+}
+#marquee
+{
+	border-width: 1px solid;
+	background-color: white;
+}
+h1
+{
+	color: green;
+}
+
+h2
+{
+	color: blue;
+}
+#image1 
+{
+	width: 300px;
+	
+}
+#image2
+{
+	width: 400px;
+	height: 150px; 
+	
+}
+#image3 
+{
+	width: 300px;
+	height: 150px;
+}
+p
+{
+	color: blue;
+}

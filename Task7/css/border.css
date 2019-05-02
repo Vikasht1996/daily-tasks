@@ -1,0 +1,45 @@
+div
+{
+	background-color: gray;
+	padding: 32px;
+}
+#color1
+{
+	border-radius: 26px 200px;
+	border: solid;
+	text-align: center;
+	height: 0px;
+	width: 226px;
+
+}
+#color2
+{
+	border-radius: 26px 200px;
+	border: solid;
+	text-align: center;
+	height: 0px;
+	width: 226px;
+	margin-left: 379px;
+	position: absolute;
+	top: 0;
+	margin-top: 44px;
+}
+#color3
+{
+	border-radius: 26px 200px;
+	border: solid;
+	text-align: center;
+	height: 0px;
+	width: 226px;
+	margin-left: 379px;  
+	margin-top: 76px;
+}
+#color4
+{
+	border-radius: 26px 200px;
+	border: solid;
+	text-align: center;
+	height: 0px;
+	width: 226px;
+	margin-top: -72px
+}
