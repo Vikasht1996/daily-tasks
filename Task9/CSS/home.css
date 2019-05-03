@@ -1,0 +1,52 @@
+body
+{
+	background-color: orange;
+
+}
+#logo
+{
+	background-color: green;
+	height: 110px;
+	width: 1000px;
+	margin-left: 105px;
+}
+#list
+{
+	background-color: white;
+}
+#info
+{
+	background-color: gray;
+}
+#image
+{
+	background-color: blue;
+	padding: 15px;
+}
+a:hover {
+  background-color: red;
+}
+span
+{
+	padding-left: 130px;
+}
+img
+{
+	height: 100px;
+}
+.foot
+{
+	margin-top: 50px;
+	background-color: black;
+	color: rgb(255,255,255);
+	    padding-left: 524px;
+}
+#marquee
+{
+	display: webkit-box;
+}
+h1
+{
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
