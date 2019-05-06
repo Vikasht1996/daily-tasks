@@ -1,0 +1,41 @@
+.flex-container
+{
+	display: inline-flex;
+	background-color:gray;
+	flex-direction: row;
+}
+div
+{
+	padding:10px;
+	margin: 10px;
+}
+#name
+{
+	margin-left: 13px;
+    width: 236px;
+}
+#phone
+{
+	margin-left: 7px;
+    width: 236px;
+}
+#email
+{
+	margin-left: 10px;
+    width: 236px;
+}
+#option
+{
+	    width: 214px;
+}
+#drop
+{
+	    margin-left: 5px;
+    width: 199px;
+}
+button
+{
+	margin-left: 224px;
+    width: 125px;
+    height: 46px;
+}

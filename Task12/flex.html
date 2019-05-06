@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex properties</title>
+	<link rel="stylesheet" type="text/css" href="./CSS/flex.css">
+</head>
+<body>
+	<div class="flex-container">
+		<div><form>
+	NAME:<input type="text" name="name" id="name"><br><br>
+		PHONE:<input type="text" name="phone"id="phone"><br><br>
+		EMAIL:<input type="text" name="email"id="email"><br><br>
+		Pickup Date/Time:<input type="text" name="date/time" value="dd/mm/yyyy, --:--" id="pickup"><br><br>
+		Pickup Place:<select id="option">
+			<option value="mandya">Mandya</option>
+			<option value="mysore">Mysore</option>
+			<option value="bangalore">Bangalore</option>
+		</select><br><br>
+		Dropoff Place:<input type="text" name="dropplace" id="drop"><br><br>
+		<button>Submit Booking</button>
+	</form></div>
+	<div id="taxi"><p>Which taxi do you requiered ?</p>
+		<input type="radio" name="vehicle" id="car" value="car">
+			<label for="car">Car</label><br>
+			<input type="radio" name="vehicle" id="van" value="van">
+			<label for="van">Van</label><br>
+			<input type="radio" name="vehicle" id="Tuk Tuk" value="Tuk Tuk">
+			<label for="Tuk Tuk">Car</label>
+			<p>Extra seats</p>
+			<input type="checkbox" name="seats" id="baby seat" value="baby seat">
+			<label for="baby seat">Car</label><br>
+			<input type="checkbox" name="seats" id="wheelchair access" value="wheelchair access">
+			<label for="wheelchair access">Van</label><br>
+			<input type="checkbox" name="seats" id="Stock Tip" value="Stock Tip">
+			<label for="Stock Tip">Car</label><br>
+		</div><br>
+	</div>
+
+
+</body>
+</html>
