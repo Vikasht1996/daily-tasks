@@ -1,0 +1,43 @@
+.flex-container
+{
+	display: flex;
+	background-color: white;
+	margin-top: 50px;
+	align-items: flex-start;
+}
+div
+{
+	background-color: rgb(200,200,200);
+	padding: 10px;
+	margin: 10px;
+}
+img
+{
+	height: 150px;
+	width: 170px;
+}
+#image1
+{
+	height: 337px;
+}
+#image3
+{
+	    height: 346px;
+}
+#image4
+{
+	height: 322px;
+}
+#image5
+{
+	height: 366px;
+}
+#image6
+{
+	    height: 330px;
+}
+button
+{
+	margin-left: 44px;
+	background-color: gray;
+}
