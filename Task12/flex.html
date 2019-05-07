@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Flex properties</title>
+	<title>Flex Properties</title>
 	<link rel="stylesheet" type="text/css" href="./CSS/flex.css">
 </head>
 <body>
 	<div class="flex-container">
-		<div><form>
-	NAME:<input type="text" name="name" id="name"><br><br>
-		PHONE:<input type="text" name="phone"id="phone"><br><br>
-		EMAIL:<input type="text" name="email"id="email"><br><br>
-		Pickup Date/Time:<input type="text" name="date/time" value="dd/mm/yyyy, --:--" id="pickup"><br><br>
-		Pickup Place:<select id="option">
-			<option value="mandya">Mandya</option>
-			<option value="mysore">Mysore</option>
-			<option value="bangalore">Bangalore</option>
-		</select><br><br>
-		Dropoff Place:<input type="text" name="dropplace" id="drop"><br><br>
-		<button>Submit Booking</button>
-	</form></div>
-	<div id="taxi"><p>Which taxi do you requiered ?</p>
-		<input type="radio" name="vehicle" id="car" value="car">
-			<label for="car">Car</label><br>
-			<input type="radio" name="vehicle" id="van" value="van">
-			<label for="van">Van</label><br>
-			<input type="radio" name="vehicle" id="Tuk Tuk" value="Tuk Tuk">
-			<label for="Tuk Tuk">Car</label>
-			<p>Extra seats</p>
-			<input type="checkbox" name="seats" id="baby seat" value="baby seat">
-			<label for="baby seat">Car</label><br>
-			<input type="checkbox" name="seats" id="wheelchair access" value="wheelchair access">
-			<label for="wheelchair access">Van</label><br>
-			<input type="checkbox" name="seats" id="Stock Tip" value="Stock Tip">
-			<label for="Stock Tip">Car</label><br>
-		</div><br>
+		<div id="box1">
+			<div>Name <input type="text" class="one"></div>
+			<div>Phone <input type="text" class="one"></div>
+			<div>Email <input type="text" class="one"></div>
+			<div>Pickup Date/Time <input type="date" class="pickup"></div>
+			<div>Pickup Place <select id="option">
+				<option value="one">Select One</option>
+				<option value="mandya">Mandya</option>
+				<option value="mysore">Mysore</option>
+				<option value="bangalore">Bangalore</option>
+			</select></div>
+			<div>Dropoff place<input type="text" class="drop"></div>
+			<button>Submit Booking</button>
+		</div>
+		<div id="box2">
+			<div><p>Which taxi do you require?</p></div>
+			<div><input type="radio">Car</div>
+			<div><input type="radio">Van</div>
+			<div><input type="radio">Tuk Tuk</div>
+			<div><p>Extras</p></div>
+			<div><input type="checkbox">Baby Seat</div>
+			<div><input type="checkbox">Wheelchair Access</div>
+			<div><input type="checkbox">Stock Tip</div>
+		</div>
 	</div>
-
-
 </body>
 </html>

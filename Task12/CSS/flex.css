@@ -1,41 +1,46 @@
 .flex-container
 {
 	display: inline-flex;
-	background-color:gray;
-	flex-direction: row;
+	background-color: yellow;
+	padding: 32px;
+	
 }
-div
+#box1>div
 {
-	padding:10px;
-	margin: 10px;
+	padding: 10px;
+	justify-content: space-between;
+
 }
-#name
+.one
 {
-	margin-left: 13px;
-    width: 236px;
+	width: 289px;
+	height: 27px;
 }
-#phone
+.pickup
 {
-	margin-left: 7px;
-    width: 236px;
-}
-#email
-{
-	margin-left: 10px;
-    width: 236px;
+	width: 210px;
+	height: 27px;
+
 }
 #option
 {
-	    width: 214px;
+	width: 245px;
+	height: 27px;
 }
-#drop
+.drop
 {
-	    margin-left: 5px;
-    width: 199px;
+	width: 239px;
+	height: 27px;
 }
 button
 {
-	margin-left: 224px;
-    width: 125px;
-    height: 46px;
+	margin-left: 179px;
+	height: 40px;
+	width: 162px;
+	background-color: gray;
 }
+#box2
+{
+	margin-left: 40px;
+}
+
