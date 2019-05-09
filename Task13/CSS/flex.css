@@ -1,0 +1,47 @@
+.flex-container
+{
+	display:flex;
+	background-color: gray;
+	flex-direction: column;
+	height: 418px;
+
+}
+#head
+{
+	background-color: green;
+	    height: 81px;
+}
+#info
+{
+
+flex-grow: 1
+height: 200px;
+
+}
+
+#article
+{
+	background-color: white;
+	
+	
+	
+}
+#aside
+{
+	background-color: lightyellow;
+	
+	
+	
+}
+#nav
+{
+	background-color: lightblue;
+	
+	
+	
+}
+#footer
+{
+	background-color: green;
+	    height: 89px;
+}

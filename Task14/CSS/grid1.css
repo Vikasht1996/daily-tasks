@@ -1,0 +1,48 @@
+.grid-container
+{
+	display: inline-grid;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px;
+	padding: 10px;
+	grid-gap: 5px;
+	background-color: white;
+}
+body
+{
+	background-color: black;
+}
+.one,.nine,.e12
+{
+	background-color: gray;	
+	grid-column: span 4;
+}
+
+.two,.eight
+{
+	background-color: gray;
+	grid-row: span 4;
+}
+.three,.six,.e11
+{
+	background-color: gray;
+	grid-column: span 2;
+}
+.four
+{
+	background-color: gray;
+	grid-row: span 4;
+}
+div
+{
+	background-color: gray;
+}
+.five,.ten,.e13
+{
+	background-color: gray;
+	grid-row: span 2;
+}
+.seven
+{
+	background-color: gray;
+	grid-area: 2 / 9 / span 2 / span 2;
+}
