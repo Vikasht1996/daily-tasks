@@ -1,0 +1,83 @@
+
+.grid-container
+{
+	display: inline-grid;
+	/*grid-template-areas: 'myArea myArea myArea';*/
+	grid-template-columns: 200px 200px 200px;
+	grid-auto-rows: 45px 45px;
+	grid-gap: 20px;
+	
+}
+.item1
+{
+	grid-area:1 / 1 / span 1 / span 3;
+	background-color: #85C1E9;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 13px;
+
+}
+.item2
+{
+	grid-area: 2 / 1 / span 3 / span 1;
+	background-color: #F2D7D5;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 65px;
+}
+.item3
+{
+	grid-area: 2 / 2 / span 4 / span 2;
+	background-color: #F1C40F;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.item4
+{
+	grid-area: 5 / 1 / span 4 / span 1;
+	background-color: #98FB98;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 64px;
+}
+.item5
+{
+	grid-area: 6 / 2 / span 3 / span 2;
+	background-color: #808080;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 67px;
+}
+.item6
+{
+	grid-area: 9 / 1 / span 3 / span 2;
+	background-color: #82E0AA;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 65px;
+}
+.item7
+{
+	grid-area: 9 / 3 / span 3 / span 1;
+	background-color: #F5B7B1;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 65px;
+}
+.item8
+{
+	grid-area: 12 / 1 / span 1 / span 3;
+	background-color: #F39C12;
+	/*font-size: 30px;*/
+	color: white;
+	text-align: center;
+	padding-top: 13px;
+}
